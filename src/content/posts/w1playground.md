@@ -1,6 +1,13 @@
-# W1 Playground
+---
+title: W1playground's writeup
+published: 2023-10-01
+description: Some write up for pwn 
+tags: [Pwn]
+draft: false
+---
+
 ## Open-read-write
-```python=
+```python
 from pwn import *
 
 context.log_level = 'debug'
