@@ -62,7 +62,7 @@ r.interactive()
 
 ## Feedback
 
-```python=
+```python
 from pwn import *
 
 context.log_level = 'debug'
@@ -149,7 +149,7 @@ pop rip
 ```
 
 ## Hello world
-```python=
+```python
 from pwn import *
 
 chall = './chall'
